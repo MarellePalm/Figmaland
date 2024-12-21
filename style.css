@@ -1,0 +1,162 @@
+/* Mobiilid (Mobile) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+    header, footer {
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* Adjust navbar for mobile */
+    nav {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        padding: 10px;
+        width: 100%; /* Make navbar full-width */
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column; /* Stack links vertically */
+        text-align: center; /* Center links text */
+        margin-top: 10px; /* Space between logo and nav links */
+    }
+
+    .nav-links a {
+        padding: 10px 20px; /* Adjust padding for mobile */
+        font-size: 18px; /* Adjust font size */
+        color: white;
+        text-decoration: none;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center; /* Center social icons horizontally */
+        margin-top: 20px;
+    }
+
+    .logo a {
+        margin: 0 10px; /* Add space between social icons */
+        color: white; /* Set icon color to white */
+    }
+
+    .nav_pilt1 {
+        width: 50%; /* Adjust image size for mobile */
+        height: auto;
+        margin-top: 20px;
+    }
+}
+
+/* Arvuti (Desktop) */
+@media (min-width: 769px) {
+    body {
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    header, footer {
+        text-align: left;
+        padding: 20px;
+    }
+
+    /* Adjust navbar for desktop */
+    nav {
+        display: flex; /* Flexbox for layout */
+        justify-content: space-between; /* Space out content between left and right */
+        align-items: center; /* Vertically align items */
+        padding: 10px 20px;
+        width: 80%; /* Limit navbar width */
+        margin: 0 auto;
+    }
+
+    .nav-links {
+        display: flex; /* Align links horizontally */
+        justify-content: space-between; /* Evenly space the nav links */
+        width: 80%; /* Allow space between links */
+    }
+
+    .nav-links a {
+        font-size: 18px; /* Adjust font size */
+        padding: 0 15px; /* Reduced padding for better spacing */
+        text-align: center;
+        color: white;
+        text-decoration: none;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end; /* Align logos to the right */
+    }
+
+    .logo a {
+        margin: 0 10px; /* Space between social icons */
+        color: white; /* Set icon color to white */
+    }
+
+    .nav_pilt1 {
+        width: 120px; /* Adjust logo image size for desktop */
+        height: auto;
+        margin: 0 20px; /* Space on the sides of the image */
+    }
+}
+
+/* Navbar Styles */
+nav {
+    
+    overflow: hidden;
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a {
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 24px; 
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: rgba(255, 255, 255, 0.822); 
+}
+
+.nav_pilt1 {
+    height: auto;
+    text-align: center;
+}
+
+/* Header Image Styling */
+header {
+    position: relative;
+    width: 100%;
+    height: 900px; /* Adjusted height to be more reasonable for both mobile and desktop */
+}
+
+.header_img {
+    position: absolute;  
+    top: 0;
+    left: 0;
+    width: 100%;  
+    height: 100%;  
+    object-fit: cover;  /* Ensure image fills the header space without distortion */
+    z-index: -1;  /* Keeps image in the background */
+}
+
+body {
+    font-family: Arial, sans-serif; 
+}
