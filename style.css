@@ -236,6 +236,9 @@ h2{
     box-sizing: border-box;
     text-align: center;
 }
+.video{
+    text-align: center;
+}
 /*FOOTERI OSA STYLID*/
 footer{
     background-color: #252B42;
