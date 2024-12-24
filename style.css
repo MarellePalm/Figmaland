@@ -239,6 +239,37 @@ h2{
 .video{
     text-align: center;
 }
+.fastest{
+    display: flex;
+    padding:  100px 350px;
+    color: #252B42;
+    justify-content: space-between;
+    gap: 280px;
+
+}
+.most{
+    padding-bottom: 40px;
+}
+.Macbook{
+    width: 400px;
+    height: auto;
+    
+}
+.part1{
+   
+    background-color: aquamarine;
+}
+.button1{
+    text-align: center;
+    color: white;
+    background-color: #2091F9;
+    border: 2px solid transparent;
+    position: center;
+    padding: 12px 40px;
+    gap: 0px;
+    border-radius: 35px;
+    opacity: 0px;
+}
 /*FOOTERI OSA STYLID*/
 footer{
     background-color: #252B42;
@@ -264,6 +295,7 @@ footer{
     text-decoration: none;
    color: white;
 }
+
 html, body {
     margin: 0;
     padding: 0;
