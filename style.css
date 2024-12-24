@@ -47,6 +47,16 @@
         height: auto;
         margin-top: 20px;
     }
+    .tulbad{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .Rows{   /*VAJAB KORDA TEGEMIST MOBIILI VAADE!!!!!*/
+        display: flex;
+        flex-direction: column; 
+        
+    }
 }
 
 /* Arvuti (Desktop) */
@@ -179,9 +189,54 @@ header {
     opacity: 0px;
     
 }
+/*MAIN OSA STYLID*/
 body {
     font-family: Arial, sans-serif; 
 }
+.features{
+    padding-top: 50px;
+}
+.text_features{  
+    text-align: center;
+}
+h2{
+    color: #252B42;
+}
+.features_p{
+    display: flex;
+    flex-direction: column;
+    color: #374754;
+    font-size: 20px;
+}
+.tulbad{
+    display: flex;
+    padding:  100px 350px;
+    color: #252B42;
+    justify-content: space-between;
+    gap: 60px;
+    
+}
+.left{
+    flex: 1;
+    padding: 60px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+.middle{
+    flex: 1;
+    padding: 60px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.right{
+    flex: 1;
+    padding: 60px;
+    box-sizing: border-box;
+    text-align: center;
+}
+/*FOOTERI OSA STYLID*/
 footer{
     background-color: #252B42;
     padding: 150px 0 150 px 0;
