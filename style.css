@@ -203,6 +203,7 @@ body {
 }
 h2{
     color: #252B42;
+    font-size: 40px;
 }
 .features_p{
     display: flex;
@@ -432,20 +433,28 @@ input{
     font-size: 60px;
     font-weight: bold;
 }
+/*OSA 7 CONTACT US*/
+.part7{
+    padding-top: 80px;
+}
+
 .part7_1{
     text-align: center;
     padding-top: 30px;
 }
 .part7_2{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 100px 350px;
-    gap: 50px;
+    padding: 100px 0px;
+    gap: 80px;
+    
 }
 .part7_2_1{
     border: 2px solid;
     padding: 20px;
+    
     
 }
 .part7_h3{
@@ -464,8 +473,35 @@ input{
 .part7_message {
     height: 80px; 
 }
-.part7_3{
-    color:white
+.part7_contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+}
+.part7_contact i {
+    color: #2091F9;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+.part7_contact p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.part7_map{
+    
+    padding-left: 50px;
+}
+.part7_31{
+    margin-top: 50px;
+    font-size: 34px;
+    
+}
+.part7_31 a{
+    color: #2091F9;
 }
 .part7_button{
     text-align: center;
@@ -498,13 +534,20 @@ footer{
 .Row3{
     flex: 50%;
 }
+.logo2{
+    gap: 50px;
+}
 .logo2 a{
     flex: 30%;
     font-size: 34px; 
     text-decoration: none;
-   color: white;
-}
+    color: white;
+    margin-right: 15px;
 
+}
+.address{
+    white-space: nowrap;
+}
 html, body {
     margin: 0;
     padding: 0;
