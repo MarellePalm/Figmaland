@@ -42,19 +42,21 @@
         color: white; /* Set icon color to white */
     }
 
-    .nav_pilt1 {
+    .nav_pilt1{
         width: 50%; /* Adjust image size for mobile */
         height: auto;
         margin-top: 20px;
     }
-    .tulbad{
-        display: flex;
+    
+    .tulbad {
         flex-direction: column;
-        padding: 10px;
+        gap: 15px;
     }
-    .Rows{   /*VAJAB KORDA TEGEMIST MOBIILI VAADE!!!!!*/
+    .Rows{   
         display: flex;
         flex-direction: column; 
+        
+        gap: 15px;
         
     }
 }
@@ -238,6 +240,8 @@ h2{
 }
 .video{
     text-align: center;
+    max-width: 100%;
+    border-radius: 8px;
 }
 .part2{
     display: flex;
@@ -273,6 +277,23 @@ h2{
     color: #252B42;
     justify-content: space-between;
     gap: 180px;
+}
+
+.part3_right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.part3_p{
+    font-size: 50px;
+}
+.part6_h2{
+    margin-bottom: 5px;
+    font-size: medium;
+}
+p{
+    margin-top: 0;
 }
 .newsletter{
     width: 400px;
@@ -359,9 +380,10 @@ input{
 }
 .part6_2{
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding:  100px 350px;
-    
-    gap: 10px;
+    gap: 20px;
 
 }
 .part6_B13 {
@@ -400,6 +422,16 @@ input{
     width: 20%;
     
 }
+.part6_FB, .part6_S{
+    text-align: center;
+}
+.part6_title{
+    font-weight: bold;
+}
+.price-number{
+    font-size: 60px;
+    font-weight: bold;
+}
 .part7_1{
     text-align: center;
     padding-top: 30px;
@@ -416,6 +448,9 @@ input{
     padding: 20px;
     
 }
+.part7_h3{
+    text-align: center;
+}
 input{
     display: block;
     width: 100%;
@@ -431,6 +466,18 @@ input{
 }
 .part7_3{
     color:white
+}
+.part7_button{
+    text-align: center;
+    color: white;
+    background-color: #2091F9;
+    border: 2px solid transparent;
+    position: center;
+    padding: 12px 40px;
+    gap: 0px;
+    border-radius: 35px;
+    opacity: 0px;
+    
 }
 /*FOOTERI OSA STYLID*/
 footer{
