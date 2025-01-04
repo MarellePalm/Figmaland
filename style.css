@@ -2,6 +2,7 @@
 @media (max-width: 768px) {
     body {
         font-size: 14px;
+        margin:0;
         padding: 10px;
     }
     header, footer {
@@ -49,15 +50,44 @@
     }
     
     .tulbad {
-        flex-direction: column;
-        gap: 15px;
+        display: flex;
+        flex-direction: column; /* Stack items vertically on mobile */
+        align-items: center;
+        justify-content: center; /* Center items horizontally */
+        gap: 30px; /* Space between elements */
+        padding: 20px; /* Add padding */
     }
+   
     .Rows{   
         display: flex;
         flex-direction: column; 
-        
         gap: 15px;
-        
+    }
+    .part2 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically on mobile */
+        align-items: center; /* Center everything horizontally */
+        gap: 20px; /* Space between elements */
+        padding: 20px; /* Add some padding */
+    }
+    .text-container {
+        text-align: center;
+    }
+
+    .Macbook {
+        width: 100%; /* Ensure the Macbook image is responsive */
+        height: auto;
+    }
+
+    .button1 {
+        padding: 12px 40px;
+        border-radius: 35px;
+        background-color: #2091F9;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        margin-top: 10px;
     }
 }
 
