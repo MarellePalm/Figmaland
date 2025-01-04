@@ -51,7 +51,7 @@
     
     .video_screen {
         display: block;
-      }
+    }
     .tulbad {
         display: flex;
         flex-direction: column; /* Stack items vertically on mobile */
@@ -60,8 +60,9 @@
         
         
     }
-    .video{
+    .video img{
         display: none;
+        align-items: center;
     }
    
     .Rows{   
@@ -76,8 +77,14 @@
         display: flex;
         flex-direction: column; /* Stack elements vertically on mobile */
         align-items: center; /* Center everything horizontally */
-        gap: 20px; /* Space between elements */
         padding: 20px; /* Add some padding */
+        text-align: center;
+    }
+    .part3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
     }
     .text-container {
         text-align: center;
@@ -98,10 +105,44 @@
         border: none;
         margin-top: 10px;
     }
+    .hide{
+        display: none;
+    }
+    .part2_3m{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+
+    }
+    .part3_1, .part3_p{
+        display: none;
+    }
+    .part3_2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    .subscribe{
+        text-align: center;
+        padding: 12px 100px;
+    }
+    .main_row img{
+        display: none;
+    }
+    .part6_2{
+        display: flex;
+        flex-direction: column;
+    }
+    .part6_FB, .part6_S{
+        padding: 40px;
+        text-align: center;
+    }
 }
 
 
-/* Arvuti (Desktop) */
+/* ARVUTI  */
 @media (min-width: 769px) {
     body {
         font-size: 16px;
@@ -157,8 +198,45 @@
         margin-left: 35%;
         margin-right: 35%;
     }
-}
+    .video_screen {
+        display: none;
+        align-items: center;
+        
+    }
+    .part2{
+        display: flex;
+        padding: 100px 350px;
+        color: #252B42;
+        justify-content: space-between;
+        gap: 280px;
+    
+    }
+    .part2_3m{
+        display: none;
 
+    }
+    .part3{
+        padding:  100px 350px;
+        gap: 180px;
+    }
+    .part3_right{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .subscribe{
+        padding: 12px 20px;
+    }
+    .part4{
+        padding:  100px 350px;
+    }
+    .part6_2{
+        padding:  100px 350px;
+    }
+    .part6_FB, .part6_S{
+        padding: 20px 20px;
+    }
+}
 /* Navbar Styles */
 nav {
     
@@ -251,9 +329,7 @@ h2{
     color: #374754;
     font-size: 20px;
 }
-.video_screen{
-    display: none;
-}
+
 .tulbad{
     display: flex;
     align-items: center;
@@ -287,17 +363,21 @@ h2{
     text-align: center;
     max-width: 100%;
     border-radius: 8px;
+    align-items: center;
+    
+}
+.video2 {
     display: block;
 }
 .part2{
     display: flex;
-    padding:  100px 350px;
     color: #252B42;
     justify-content: space-between;
-    gap: 280px;
-
 }
-.most{
+.part2_2 {
+    padding-top: 40px;
+}
+.hide{
     padding-bottom: 40px;
 }
 .Macbook{
@@ -319,17 +399,8 @@ h2{
 }
 .part3{
     display: flex;
-    padding:  100px 350px;
     color: #252B42;
     justify-content: space-between;
-    gap: 180px;
-}
-
-.part3_right{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-
 }
 .part3_right input{
     display: block;
@@ -369,7 +440,6 @@ input{
     background-color: #2091F9;
     border: 2px solid transparent;
     position: center;
-    padding: 12px 20px;
     gap: 0px;
     border-radius: 35px;
     opacity: 0px;
@@ -377,10 +447,9 @@ input{
 .part4{
     display: flex;
     flex-direction: column;
-    padding:  100px 350px;
     color: #252B42;
     justify-content: space-between;
-    gap: 50px;
+    gap: 30px;
     text-align: center;
 
 }
@@ -439,7 +508,6 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:  100px 350px;
     gap: 20px;
 
 }
@@ -468,13 +536,11 @@ input{
 .part6_FB{
     background-color: white;
     color: #252B42;
-    padding: 20px 20px;
     border-radius: 15px;
     width: 20%;
 }
 .part6_S{
     background-color: #2091F9;
-    padding: 20px 20px;
     border-radius: 15px;
     width: 20%;
     
