@@ -49,19 +49,28 @@
         margin-top: 20px;
     }
     
+    .video_screen {
+        display: block;
+      }
     .tulbad {
         display: flex;
         flex-direction: column; /* Stack items vertically on mobile */
         align-items: center;
         justify-content: center; /* Center items horizontally */
-        gap: 30px; /* Space between elements */
-        padding: 20px; /* Add padding */
+        
+        
+    }
+    .video{
+        display: none;
     }
    
     .Rows{   
         display: flex;
         flex-direction: column; 
-        gap: 15px;
+        gap: 10px;
+    }
+    .logo2{
+        display: flex;
     }
     .part2 {
         display: flex;
@@ -90,6 +99,7 @@
         margin-top: 10px;
     }
 }
+
 
 /* Arvuti (Desktop) */
 @media (min-width: 769px) {
@@ -241,12 +251,16 @@ h2{
     color: #374754;
     font-size: 20px;
 }
+.video_screen{
+    display: none;
+}
 .tulbad{
     display: flex;
-    padding:  100px 350px;
+    align-items: center;
+    padding:  100px 120px;
     color: #252B42;
     justify-content: space-between;
-    gap: 60px;
+    gap: 100px;
     
 }
 .left{
@@ -273,6 +287,7 @@ h2{
     text-align: center;
     max-width: 100%;
     border-radius: 8px;
+    display: block;
 }
 .part2{
     display: flex;
@@ -564,7 +579,7 @@ footer{
 }
 .Rows{
     display: flex;
-    padding:  100px 250px;
+    padding:  100px 160px;
 }
 .Row1{
     flex: 30%;
