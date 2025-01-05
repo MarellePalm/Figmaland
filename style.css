@@ -239,10 +239,19 @@
         margin-left: 35%;
         margin-right: 35%;
     }
+    .First1{
+        font-weight: bolder;
+        font-weight: 700;
+       
+    }
+    .video2{
+        padding-left: 200px;
+    }
     .video_screen {
         display: none;
-       
-        
+    }
+    .video_screen0, .video_screen1{
+        display: none;
     }
     .tulbad{
         padding:  100px 120px;
@@ -303,7 +312,7 @@
         padding:  100px 160px;
     }
 }
-/* Navbar Styles */
+/*                              Navbar Styles */
 nav {
     
     overflow: hidden;
@@ -433,6 +442,7 @@ h2{
 }
 .video2 {
     display: block;
+    
 }
 .part2{
     display: flex;
@@ -602,22 +612,21 @@ input{
     background-color: white;
     color: #252B42;
     border-radius: 15px;
+    text-align: center;
     
 }
 .part6_S{
     background-color: #2091F9;
     border-radius: 15px;
-    
-}
-.part6_FB, .part6_S{
     text-align: center;
 }
+
 .part6_title{
     font-weight: bold;
 }
 .price-number{
     font-size: 60px;
-    font-weight: bold;
+    font-weight: bold
 }
 /*OSA 7 CONTACT US*/
 .part7{
@@ -636,9 +645,10 @@ input{
     
 }
 .part7_2_1{
-    border: 2px solid;
+    border: 1px #dddddd;
+    border-radius: 20px;
     padding: 20px;
-    
+    box-shadow: 0 13px 19px 0 #ccc;
     
 }
 .part7_h3{
