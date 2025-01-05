@@ -1,7 +1,7 @@
 /* Mobiilid (Mobile) */
 @media (max-width: 768px) {
     body {
-        font-size: 14px;
+        font-size: 16px;
         margin:0;
         padding: 10px;
     }
@@ -10,41 +10,41 @@
         padding: 10px;
     }
 
-    /* Adjust navbar for mobile */
+    
     nav {
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items horizontally */
+        flex-direction: column; 
+        align-items: center; 
         padding: 10px;
-        width: 100%; /* Make navbar full-width */
+        width: 100%; 
     }
 
     .nav-links {
         display: flex;
-        flex-direction: column; /* Stack links vertically */
-        text-align: center; /* Center links text */
-        margin-top: 10px; /* Space between logo and nav links */
+        flex-direction: column; 
+        text-align: center; 
+        margin-top: 10px; 
     }
 
     .nav-links a {
-        padding: 10px 20px; /* Adjust padding for mobile */
-        font-size: 18px; /* Adjust font size */
+        padding: 10px 20px; 
+        font-size: 18px; 
         color: white;
         text-decoration: none;
     }
 
     .logo {
         display: flex;
-        justify-content: center; /* Center social icons horizontally */
+        justify-content: center; 
         margin-top: 20px;
     }
 
     .logo a {
-        margin: 0 10px; /* Add space between social icons */
-        color: white; /* Set icon color to white */
+        margin: 0 10px; 
+        color: white; 
     }
 
     .nav_pilt1{
-        width: 50%; /* Adjust image size for mobile */
+        width: 50%; 
         height: auto;
         margin-top: 20px;
     }
@@ -54,9 +54,10 @@
     }
     .tulbad {
         display: flex;
-        flex-direction: column; /* Stack items vertically on mobile */
+        flex-direction: column; 
         align-items: center;
-        justify-content: center; /* Center items horizontally */
+        justify-content: center; 
+        padding: 0 44px;
         
         
     }
@@ -75,9 +76,9 @@
     }
     .part2 {
         display: flex;
-        flex-direction: column; /* Stack elements vertically on mobile */
-        align-items: center; /* Center everything horizontally */
-        padding: 20px; /* Add some padding */
+        flex-direction: column; 
+        align-items: center; 
+        padding: 20px; 
         text-align: center;
     }
     .part3 {
@@ -91,7 +92,7 @@
     }
 
     .Macbook {
-        width: 100%; /* Ensure the Macbook image is responsive */
+        width: 100%; 
         height: auto;
     }
 
@@ -139,6 +140,30 @@
         padding: 40px;
         text-align: center;
     }
+    .mobile_part7 {
+        display: block;
+
+    }
+    .part7_2{
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    .part7_3{
+        display: none;
+        
+    }
+    .mobile_72 i {
+        color: #2091F9;
+        margin-bottom: 25px;
+        font-size: 24px;
+    }
+    .logo2{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        
+    }
 }
 
 
@@ -154,25 +179,25 @@
         padding: 20px;
     }
 
-    /* Adjust navbar for desktop */
+    
     nav {
-        display: flex; /* Flexbox for layout */
-        justify-content: space-between; /* Space out content between left and right */
-        align-items: center; /* Vertically align items */
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
         padding: 10px 20px;
-        width: 80%; /* Limit navbar width */
+        width: 80%; 
         margin: 0 auto;
     }
 
     .nav-links {
-        display: flex; /* Align links horizontally */
-        justify-content: space-between; /* Evenly space the nav links */
-        width: 80%; /* Allow space between links */
+        display: flex; 
+        justify-content: space-between; 
+        width: 80%; 
     }
 
     .nav-links a {
-        font-size: 18px; /* Adjust font size */
-        padding: 0 15px; /* Reduced padding for better spacing */
+        font-size: 18px; 
+        padding: 0 15px; 
         text-align: center;
         color: white;
         text-decoration: none;
@@ -181,18 +206,18 @@
     .logo {
         display: flex;
         align-items: center;
-        justify-content: flex-end; /* Align logos to the right */
+        justify-content: flex-end; 
     }
 
     .logo a {
-        margin: 0 10px; /* Space between social icons */
-        color: white; /* Set icon color to white */
+        margin: 0 10px; 
+        color: white; 
     }
 
     .nav_pilt1 {
-        width: 120px; /* Adjust logo image size for desktop */
+        width: 120px; 
         height: auto;
-        margin: 0 20px; /* Space on the sides of the image */
+        margin: 0 20px; 
     }
     .First{
         margin-left: 35%;
@@ -202,6 +227,10 @@
         display: none;
         align-items: center;
         
+    }
+    .tulbad{
+        padding:  100px 120px;
+        gap: 100px;
     }
     .part2{
         display: flex;
@@ -235,6 +264,23 @@
     }
     .part6_FB, .part6_S{
         padding: 20px 20px;
+    }
+    .mobile_part7 {
+        display: none;
+
+    }
+    .part7_2{
+        padding: 100px 0px;
+        gap: 80px;
+        flex-direction: row;
+
+    }
+    .part7_3{
+        display: block;
+    }
+
+    .Rows{
+        padding:  100px 160px;
     }
 }
 /* Navbar Styles */
@@ -278,7 +324,7 @@ nav a {
 header {
     position: relative;
     width: 100%;
-    height: 900px; /* Adjusted height to be more reasonable for both mobile and desktop */
+    height: 900px; 
     clip-path: polygon(0 0, 100% 0, 100% 90%, 51% 98%, 49% 98%, 0 90%);
 }
 
@@ -288,8 +334,8 @@ header {
     left: 0;
     width: 100%;  
     height: 100%;  
-    object-fit: cover;  /* Ensure image fills the header space without distortion */
-    z-index: -1;  /* Keeps image in the background */
+    object-fit: cover;  
+    z-index: -1;  
 }
 .First{
     text-align: center;
@@ -333,10 +379,9 @@ h2{
 .tulbad{
     display: flex;
     align-items: center;
-    padding:  100px 120px;
     color: #252B42;
     justify-content: space-between;
-    gap: 100px;
+    
     
 }
 .left{
@@ -566,11 +611,9 @@ input{
 }
 .part7_2{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 100px 0px;
-    gap: 80px;
+    
     
 }
 .part7_2_1{
@@ -637,6 +680,18 @@ input{
     opacity: 0px;
     
 }
+.mobile_part7{
+    text-align: center;
+}
+.mobile_part7 a{
+    color: #2091F9;
+    margin-bottom: 25px;
+    font-size: 34px;
+    
+}
+.mobile_71, .mobile_72{
+    padding: 25px 0;
+}
 /*FOOTERI OSA STYLID*/
 footer{
     background-color: #252B42;
@@ -645,7 +700,6 @@ footer{
 }
 .Rows{
     display: flex;
-    padding:  100px 160px;
 }
 .Row1{
     flex: 30%;
