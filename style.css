@@ -1,4 +1,4 @@
-/* Mobiilid (Mobile) */
+/*                         !!!!!!! Mobile view!!!!! */
 @media (max-width: 768px) {
     body {
         font-size: 16px;
@@ -49,9 +49,6 @@
         margin-top: 20px;
     }
     
-    .video_screen {
-        display: block;
-    }
     .tulbad {
         display: flex;
         flex-direction: column; 
@@ -114,6 +111,7 @@
         flex-direction: column;
         text-align: center;
         padding: 20px;
+        padding-top: 30px;
 
     }
     .part3_1, .part3_p{
@@ -131,6 +129,24 @@
     }
     .main_row img{
         display: none;
+    }
+    .part4{
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .video_screen {
+        display: block;
+        width: 99%;
+        height: auto;
+
+    }
+    .video_screen0{
+        display: block;
+    }
+    .video_screen1 {
+        display: block;
+        padding-left: 110px;
+    
     }
     .part6_2{
         display: flex;
@@ -167,7 +183,7 @@
 }
 
 
-/* ARVUTI  */
+    /*               !!!!!!!          ARVUTI /DESKTOP!!! */
 @media (min-width: 769px) {
     body {
         font-size: 16px;
@@ -225,7 +241,7 @@
     }
     .video_screen {
         display: none;
-        align-items: center;
+       
         
     }
     .tulbad{
@@ -262,8 +278,12 @@
     .part6_2{
         padding:  100px 350px;
     }
+    .part6_text{
+        width: 20%;
+    }
     .part6_FB, .part6_S{
         padding: 20px 20px;
+        width: 20%;
     }
     .mobile_part7 {
         display: none;
@@ -523,6 +543,7 @@ input{
     padding-bottom: 40px;
 }
 
+
 .more{
     text-align: center;
     color: white;
@@ -545,7 +566,6 @@ input{
 }
 .part6_text{
     padding-bottom: 50px;
-    width: 20%;
     text-align: center;
     margin: 0 auto;
 }
@@ -582,12 +602,11 @@ input{
     background-color: white;
     color: #252B42;
     border-radius: 15px;
-    width: 20%;
+    
 }
 .part6_S{
     background-color: #2091F9;
     border-radius: 15px;
-    width: 20%;
     
 }
 .part6_FB, .part6_S{
